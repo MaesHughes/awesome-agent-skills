@@ -1,7 +1,6 @@
 # awesome-agent-skills
 
 > A curated list of awesome Agent Skills for extending AI coding assistants.
-> 精选的 Agent Skills 列表，用于扩展 AI 编程助手。
 >
 > **Maintained by [大熊掌门](https://github.com/MaesHughes) | [五行代码博客](https://blog.wuxingcodes.com/)**
 
@@ -62,7 +61,7 @@
 
 ## Skills by Category
 
-### Development / 开发工具
+### Development
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -74,7 +73,7 @@
 | [clean-architecture](https://github.com/obra/skills) | Implement clean architecture patterns in projects | [obra/skills](https://github.com/obra/skills) |
 | [design-patterns](https://github.com/obra/skills) | Apply Gang of Four design patterns appropriately | [obra/skills](https://github.com/obra/skills) |
 
-### Git & Version Control / Git 版本控制
+### Git & Version Control
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -84,7 +83,7 @@
 | [branch-strategy](https://github.com/obra/skills) | Implement Git branching strategies (GitFlow, trunk-based) | [obra/skills](https://github.com/obra/skills) |
 | [git-workflow](https://github.com/obra/skills) | Optimize Git workflow for team collaboration | [obra/skills](https://github.com/obra/skills) |
 
-### Testing / 测试
+### Testing
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -93,7 +92,7 @@
 | [integration-testing](https://github.com/obra/skills) | Test integration between system components | [obra/skills](https://github.com/obra/skills) |
 | [e2e-testing](https://github.com/obra/skills) | End-to-end testing for user flows | [obra/skills](https://github.com/obra/skills) |
 
-### React & Frontend / React 前端
+### React & Frontend
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -104,7 +103,7 @@
 | [component-design](https://github.com/obra/skills) | Design reusable React component libraries | [obra/skills](https://github.com/obra/skills) |
 | [performance-optimization](https://github.com/obra/skills) | Optimize React app performance | [obra/skills](https://github.com/obra/skills) |
 
-### Mobile Development / 移动开发
+### Mobile Development
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -113,7 +112,7 @@
 | [expo-deployment](https://github.com/expo/expo) | Deploy Expo apps to production stores | [expo/expo](https://github.com/expo/expo) |
 | [upgrading-expo](https://github.com/expo/expo) | Upgrade Expo SDK versions safely | [expo/expo](https://github.com/expo/expo) |
 
-### DevOps & Deployment / 运维部署
+### DevOps & Deployment
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -122,7 +121,7 @@
 | [ci-cd-pipeline](https://github.com/obra/skills) | Create CI/CD pipelines with GitHub Actions | [obra/skills](https://github.com/obra/skills) |
 | [infrastructure-as-code](https://github.com/obra/skills) | Define infrastructure with Terraform/Pulumi | [obra/skills](https://github.com/obra/skills) |
 
-### Documentation / 文档
+### Documentation
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -133,7 +132,7 @@
 | [technical-writing](https://github.com/obra/skills) | Write clear technical documentation | [obra/skills](https://github.com/obra/skills) |
 | [api-documentation](https://github.com/obra/skills) | Generate API documentation from code | [obra/skills](https://github.com/obra/skills) |
 
-### Data & Science / 数据科学
+### Data & Science
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -141,7 +140,7 @@
 | [data-visualization](https://github.com/obra/skills) | Create data visualizations with matplotlib/plotly | [obra/skills](https://github.com/obra/skills) |
 | [machine-learning](https://github.com/obra/skills) | Build and train ML models with scikit-learn | [obra/skills](https://github.com/obra/skills) |
 
-### Design & Creative / 设计创意
+### Design & Creative
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -150,14 +149,14 @@
 | [brand-guidelines](https://github.com/anthropics/skills) | Apply brand colors and typography to artifacts | [anthropics/skills](https://github.com/anthropics/skills) |
 | [ui-design-systems](https://github.com/obra/skills) | Create consistent UI design systems | [obra/skills](https://github.com/obra/skills) |
 
-### MCP Integration / MCP 集成
+### MCP Integration
 
 | Skill | Description | Source |
 |-------|-------------|--------|
 | [mcp-builder](https://github.com/anthropics/skills) | Create MCP servers to integrate external APIs and services | [anthropics/skills](https://github.com/anthropics/skills) |
 | [mcp-client](https://github.com/obra/skills) | Connect AI agents to MCP servers | [obra/skills](https://github.com/obra/skills) |
 
-### Security / 安全
+### Security
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -165,7 +164,7 @@
 | [dependency-check](https://github.com/obra/skills) | Check dependencies for vulnerabilities | [obra/skills](https://github.com/obra/skills) |
 | [authentication](https://github.com/obra/skills) | Implement secure authentication (OAuth, JWT) | [obra/skills](https://github.com/obra/skills) |
 
-### Workflow & Automation / 工作流自动化
+### Workflow & Automation
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -173,7 +172,7 @@
 | [file-organization](https://github.com/obra/skills) | Organize project files and directories | [obra/skills](https://github.com/obra/skills) |
 | [code-generation](https://github.com/obra/skills) | Generate boilerplate code efficiently | [obra/skills](https://github.com/obra/skills) |
 
-### Database / 数据库
+### Database
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -182,19 +181,19 @@
 | [orm-usage](https://github.com/obra/skills) | Use ORMs (Prisma, TypeORM, SQLAlchemy) effectively | [obra/skills](https://github.com/obra/skills) |
 | [migration-management](https://github.com/obra/skills) | Manage database migrations safely | [obra/skills](https://github.com/obra/skills) |
 
-### Community Skills / 社区精选
+### Community Skills
 
 | Skill | Author | Description |
 |-------|--------|-------------|
-| [baoyu-skills](https://github.com/baoyuto/skills) | @baoyuto | 宝玉老师自用 Skills（自动发公众号等） |
-| [planning-with-files](https://github.com/different-planet/skills) | @different-planet | 使用文件规划实现 Manus 效果 |
-| [skill-prompt-generator](https://github.com/prompt-engineer/skills) | @prompt-engineer | 从现有代码生成 Skill 提示词 |
-| [claude-scientific-skills](https://github.com/scientist/skills) | @scientist | 128+ 科研技能（生物、化学、ML） |
-| [ui-ux-pro-max](https://github.com/designer/skills) | @designer | UI/UX 设计 Skills 集合 |
+| [baoyu-skills](https://github.com/baoyuto/skills) | @baoyuto | Personal Skills collection by Baoyu (auto-publishing to WeChat, etc.) |
+| [planning-with-files](https://github.com/different-planet/skills) | @different-planet | File-based planning for Manus-like workflow |
+| [skill-prompt-generator](https://github.com/prompt-engineer/skills) | @prompt-engineer | Generate Skill prompts from existing code |
+| [claude-scientific-skills](https://github.com/scientist/skills) | @scientist | 128+ scientific research skills (biology, chemistry, ML) |
+| [ui-ux-pro-max](https://github.com/designer/skills) | @designer | UI/UX design Skills collection |
 
 ---
 
-## Development Tools / 开发工具
+## Development Tools
 
 | Tool | Description | Link |
 |------|-------------|------|
@@ -203,104 +202,104 @@
 
 ---
 
-## Installation / 安装方式
+## Installation
 
 ### Claude Code
 
 ```bash
-# Project level / 项目级别
+# Project level
 .claude/skills/<skill-name>/SKILL.md
 
-# User level / 用户级别
+# User level
 ~/.claude/skills/<skill-name>/SKILL.md
 ```
 
 ### OpenCode
 
 ```bash
-# Project level / 项目级别
+# Project level
 .opencode/skills/<skill-name>/SKILL.md
 
-# User level / 用户级别
+# User level
 ~/.config/opencode/skills/<skill-name>/SKILL.md
 ```
 
 ### Cursor
 
 ```bash
-# Project level / 项目级别
+# Project level
 .cursor/skills/<skill-name>/SKILL.md
 
-# User level / 用户级别
+# User level
 ~/.cursor/skills/<skill-name>/SKILL.md
 ```
 
 ---
 
-## Learning Resources / 学习资源
+## Learning Resources
 
-### 官方教程 / Official Tutorials
+### Official Documentation
 
-- 🎓 [Claude Code Skills 完整指南](https://code.claude.com/docs/en/skills) - Anthropic 官方文档
-- 🎓 [OpenCode Skills 集成文档](https://opencode.ai/docs/skills/) - OpenCode 官方指南
-- 🎓 [Agent Skills 技术协议](https://modelscope.cn/learn/2558) - 中文技术深度解析
+- 📖 [Agent Skills - Claude Code](https://code.claude.com/docs/en/skills) - Official Claude Code guide
+- 📖 [Agent Skills - OpenCode](https://opencode.ai/docs/skills/) - OpenCode integration guide
+- 📖 [Agent Skills Protocol - ModelScope](https://modelscope.cn/learn/2558) - Technical protocol (Chinese)
 
-### 社区教程 / Community Tutorials
+### Community Tutorials
 
-来自 **libukai/awesome-agent-skills** 中文教程合集：
+From **libukai/awesome-agent-skills** collection:
 
-#### 喂饭教程
-- @一泽 Eze：Agent Skills 终极指南：入门、精通、预测
-- @数字生命卡兹克：一文带你看懂 Skills
-- @王树义：AI 从「嘴替」升级成「打工人」
+#### Beginner Tutorials
+- @Eze: Agent Skills Ultimate Guide: Beginner to Advanced
+- @Kazk: Understanding Skills in One Article
+- @Wang Shuyi: AI Evolving from "Chat Partner" to "Worker"
 
-#### 进阶教程
-- @宝玉：五步框架把 Workflow 变成可进化的 Skill
-- @歸藏：带动效的 PPT 生成 Agent
-- @李不凯正在研究：Cherry Studio 最佳实践
+#### Advanced Tutorials
+- @Baoyu: Five-Step Framework to Turn Workflow into Evolvable Skill
+- @Guizang: PPT Generation Agent with Animations
+- @Li Bukai: Cherry Studio Best Practices
 
-#### 深度分析
-- @凡人小北：Skills vs MCP 的区别
-- @deeptoai：Claude Agent Skills 第一性原理
-- @宝玉：Claude Code 的"懒加载"机制
+#### Deep Dives
+- @Fan Xiaobei: Skills vs MCP Differences
+- @deeptoai: Claude Agent Skills First Principles
+- @Baoyu: Claude Code "Lazy Loading" Mechanism
 
-#### 视频教程
-- @马克的技术工作坊：Agent Skill 从使用到原理
-- @白白说大模型：别再造 Agent 了，未来是 Skills 的
-- @01Coder：OpenCode + 智谱 GLM + Agent Skills
+#### Video Tutorials
+- @Mark's Tech Workshop: Agent Skill Usage to Principles
+- @Bai Bai LLM: Stop Building Agents, Future is Skills
+- @01Coder: OpenCode + Zhipu GLM + Agent Skills
 
 ---
 
-## Community / 社区
+## Community
 
-### 讨论区 / Discussion Forums
+### Discussion Forums
 
 - 💬 [Anthropic Community](https://community.anthropic.com/)
 - 💬 [r/ClaudeAI](https://reddit.com/r/ClaudeAI/) - Reddit
-- 💬 [r/Cline](https://reddit.com/r/Cline/) - Cline 社区
-- 💬 [Cursor Discord](https://discord.gg/cursor) - Cursor 官方 Discord
-- 💬 [OpenCode Discord](https://discord.gg/opencode) - OpenCode 社区
+- 💬 [r/Cline](https://reddit.com/r/Cline/) - Cline community
+- 💬 [Cursor Discord](https://discord.gg/cursor) - Cursor official Discord
+- 💬 [OpenCode Discord](https://discord.gg/opencode) - OpenCode community
 
-### 贡献指南 / Contributing
+### Contributing
 
-欢迎贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详情。
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-**贡献方式**：
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/amazing-skill`)
-3. 提交更改 (`git commit -m 'Add amazing skill'`)
-4. 推送到分支 (`git push origin feature/amazing-skill`)
-5. 创建 Pull Request
+**How to contribute**:
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/amazing-skill`)
+3. Commit your changes (`git commit -m 'Add amazing skill'`)
+4. Push to the branch (`git push origin feature/amazing-skill`)
+5. Create a Pull Request
 
-**贡献规范**：
-- 每个 Skill 必须包含 SKILL.md 文件
-- 提供清晰的说明和示例
-- 遵循现有格式和风格
-- 添加中英文双语描述
+**Contribution guidelines**:
+- Each Skill must include a SKILL.md file
+- Provide clear descriptions and examples
+- Follow existing format and style
+- Add bilingual descriptions (English and Chinese)
 
 ---
 
-## SKILL.md 模板 / SKILL.md Template
+## SKILL.md Template
 
 ```yaml
 ---
@@ -314,27 +313,27 @@ version: "1.0.0"
 
 # Amazing Skill
 
-## What it does / 功能说明
+## What it does
 
 This skill helps you...
 
-## How to use / 使用方法
+## How to use
 
 1. Step one
 2. Step two
 
-## Examples / 示例
+## Examples
 
 \`\`\`typescript
 // Example usage
 \`\`\`
 
-## Requirements / 要求
+## Requirements
 
 - Node.js 18+
 - Claude Code 0.6+
 
-## Resources / 资源
+## Resources
 
 - [Documentation](https://example.com)
 - [GitHub](https://github.com/example/skill)
@@ -342,7 +341,7 @@ This skill helps you...
 
 ---
 
-## Stats / 统计
+## Stats
 
 - **Total Skills**: 150+
 - **Official Skills**: 16 (Anthropic: 10, Vercel Labs: 3, Expo: 3)
@@ -352,22 +351,22 @@ This skill helps you...
 
 ---
 
-## 🔗 Related Projects / 相关项目
+## Related Projects
 
-- [awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) - MCP 服务器列表
-- [awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) - AI 编程工具列表
-- [openskills](https://github.com/numman-ali/openskills) - 通用 Skills 加载器
-- [MCP Market](https://mcpmarket.com) - MCP 服务器市场
-
----
-
-## 🌐 More Resources / 更多资源
-
-更多 AI 编程资源和教程，请访问：[五行代码博客](https://blog.wuxingcodes.com/)
+- [awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) - MCP servers list
+- [awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) - AI coding tools list
+- [openskills](https://github.com/numman-ali/openskills) - Universal Skills loader
+- [MCP Market](https://mcpmarket.com) - MCP servers marketplace
 
 ---
 
-## License / 许可证
+## More Resources
+
+For more AI programming resources and tutorials, visit: [五行代码博客](https://blog.wuxingcodes.com/)
+
+---
+
+## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -375,14 +374,16 @@ To the extent possible under law, [大熊掌门 (MaesHughes)](https://github.com
 
 ---
 
-## Stargazers over time / 星标增长趋势
+## Stargazers over time
 
 [![Stargazers over time](https://api.star-history.com/svg?repos=MaesHughes/awesome-agent-skills&type=Date)](https://star-history.com/#MaesHughes/awesome-agent-skills&Date)
 
 ---
 
-**⭐ 如果这个项目对你有帮助，请给一个 Star！/ If this project helps you, please give it a star!**
+**⭐ If this project helps you, please give it a star!**
 
-**💡 由 [大熊掌门 (MaesHughes)](https://github.com/MaesHughes) 维护 / Maintained by [大熊掌门]**
+**💡 Maintained by [大熊掌门 (MaesHughes)](https://github.com/MaesHughes)**
 
-**🌐 博客 / Blog**: [五行代码](https://blog.wuxingcodes.com/)
+**🌐 Blog**: [五行代码](https://blog.wuxingcodes.com/)
+
+**📝 中文版 / [中文文档](README.zh-CN.md)**
