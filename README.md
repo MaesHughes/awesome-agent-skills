@@ -1,11 +1,14 @@
 # awesome-agent-skills
 
-> A curated list of awesome Agent Skills, resources, and tools for extending AI coding assistants. / 精选的 Agent Skills 资源列表，用于扩展 AI 编程助手。
+> A curated list of awesome Agent Skills, resources, and tools for extending AI coding assistants.
+> 精选的 Agent Skills 资源列表，用于扩展 AI 编程助手。
+>
+> **Maintained by [大熊掌门](https://github.com/MaesHughes) | [五行代码博客](https://blog.wuxingcodes.com/)**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License](https://img.shields.io/badge/license-CC0%201.0-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/daxiong-zhangmen/awesome-agent-skills?style=social)](https://github.com/daxiong-zhangmen/awesome-agent-skills)
-[![Contributors](https://img.shields.io/github/contributors/daxiong-zhangmen/awesome-agent-skills)](https://github.com/daxiong-zhangmen/awesome-agent-skills/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/MaesHughes/awesome-agent-skills?style=social)](https://github.com/MaesHughes/awesome-agent-skills)
+[![Contributors](https://img.shields.io/github/contributors/MaesHughes/awesome-agent-skills)](https://github.com/MaesHughes/awesome-agent-skills/graphs/contributors)
 
 ---
 
@@ -353,18 +356,18 @@ This skill helps you...
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [大熊掌门](https://github.com/daxiong-zhangmen) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [大熊掌门 (MaesHughes)](https://github.com/MaesHughes) has waived all copyright and related or neighboring rights to this work.
 
 ---
 
 ## Stargazers over time / 星标增长趋势
 
-[![Stargazers over time](https://api.star-history.com/svg?repos=daxiong-zhangmen/awesome-agent-skills&type=Date)](https://star-history.com/#daxiong-zhangmen/awesome-agent-skills&Date)
+[![Stargazers over time](https://api.star-history.com/svg?repos=MaesHughes/awesome-agent-skills&type=Date)](https://star-history.com/#MaesHughes/awesome-agent-skills&Date)
 
 ---
 
 **⭐ 如果这个项目对你有帮助，请给一个 Star！/ If this project helps you, please give it a star!**
 
-**💡 由 [大熊掌门](https://github.com/daxiong-zhangmen) 维护 / Maintained by [大熊掌门]**
+**💡 由 [大熊掌门 (MaesHughes)](https://github.com/MaesHughes) 维护 / Maintained by [大熊掌门]**
 
 **🌐 博客 / Blog**: [五行代码](https://blog.wuxingcodes.com/)
