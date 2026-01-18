@@ -78,6 +78,48 @@
 
 ---
 
+## Community Skills Collections
+
+### Awesome Lists & Curations
+
+| Repository | Description | Stars |
+|------------|-------------|-------|
+| [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | Curated list of 150+ Claude Skills with direct links | [⭐](https://github.com/VoltAgent/awesome-claude-skills) |
+| [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) | Definitive resource for Agent Skills | [⭐](https://github.com/skillmatic-ai/awesome-agent-skills) |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Customizable workflows for Claude | [⭐](https://github.com/ComposioHQ/awesome-claude-skills) |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 中文版 Agent Skills 精选列表 | [⭐](https://github.com/heilcheng/awesome-agent-skills) |
+
+### Skills Collections
+
+| Repository | Description | Stars |
+|------------|-------------|-------|
+| [hikanner/agent-skills](https://github.com/hikanner/agent-skills) | Kanner's curated collection of Claude Agent Skills | [⭐](https://github.com/hikanner/agent-skills) |
+| [meetrais/claude-agent-skills](https://github.com/meetrais/claude-agent-skills) | Repository for Claude Agent Skills examples | [⭐](https://github.com/meetrais/claude-agent-skills) |
+| [GuDaStudio/skills](https://github.com/GuDaStudio/skills) | GudaStudio's collection of Agent Skills | [⭐](https://github.com/GuDaStudio/skills) |
+
+### Tools & Utilities
+
+| Repository | Description | Stars |
+|------------|-------------|-------|
+| [numman-ali/openskills](https://github.com/numman-ali/openskills) | Universal skills loader for AI coding agents (Claude Code, Cursor, Windsurf, Aider, Codex) | [⭐](https://github.com/numman-ali/openskills) |
+| [zouyingcao/agentskills-mcp](https://github.com/zouyingcao/agentskills-mcp) | Bringing Anthropic's Agent Skills to any AI agent via MCP | [⭐](https://github.com/zouyingcao/agentskills-mcp) |
+| [SteelMorgan/cursor-anthropic-skills](https://github.com/SteelMorgan/cursor-anthropic-skills) | Framework for integrating Anthropic Skills into Cursor IDE | [⭐](https://github.com/SteelMorgan/cursor-anthropic-skills) |
+
+### Specifications & Documentation
+
+| Repository | Description | Stars |
+|------------|-------------|-------|
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills open format | [⭐](https://github.com/agentskills/agentskills) |
+| [zebbern/agent-skills-guide](https://github.com/zebbern/agent-skills-guide) | Guide for creating agent skill files with examples | [⭐](https://github.com/zebbern/agent-skills-guide) |
+
+### Marketplaces
+
+| Platform | Description | Link |
+|----------|-------------|------|
+| **SkillsMP** | Browse 71000+ agent skills compatible with Claude Code, Codex CLI and ChatGPT | [skillsmp.com](https://skillsmp.com/) |
+
+---
+
 ## Installation
 
 ### Claude Code
@@ -202,8 +244,12 @@ This skill helps you...
 ## Stats
 
 - **Official Skills**: 16 (Anthropic: 10, Vercel Labs: 3, Expo: 3)
-- **Development Tools**: 2
-- **Official Documentation Sources**: 4
+- **Community Collections**: 13 verified repositories
+- **Awesome Lists**: 4 (VoltAgent, skillmatic-ai, ComposioHQ, heilcheng)
+- **Skills Collections**: 3 (hikanner, meetrais, GuDaStudio)
+- **Tools & Utilities**: 3 (openskills, agentskills-mcp, cursor-anthropic-skills)
+- **Development Tools**: 2 (skillport, add-skill)
+- **Marketplaces**: 1 (SkillsMP - 71000+ skills)
 - **Last Updated**: 2026-01-18
 
 ---

@@ -79,6 +79,48 @@
 
 ---
 
+## 社区 Skills 集合
+
+### Awesome 列表与精选
+
+| 仓库 | 描述 | Stars |
+|------------|-------------|-------|
+| [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | 精选 150+ Claude Skills 列表，带直接链接 | [⭐](https://github.com/VoltAgent/awesome-claude-skills) |
+| [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) | Agent Skills 权威资源 | [⭐](https://github.com/skillmatic-ai/awesome-agent-skills) |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude 可定制工作流 | [⭐](https://github.com/ComposioHQ/awesome-claude-skills) |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 中文版 Agent Skills 精选列表 | [⭐](https://github.com/heilcheng/awesome-agent-skills) |
+
+### Skills 集合
+
+| 仓库 | 描述 | Stars |
+|------------|-------------|-------|
+| [hikanner/agent-skills](https://github.com/hikanner/agent-skills) | Kanner 的 Claude Agent Skills 精选集合 | [⭐](https://github.com/hikanner/agent-skills) |
+| [meetrais/claude-agent-skills](https://github.com/meetrais/claude-agent-skills) | Claude Agent Skills 示例仓库 | [⭐](https://github.com/meetrais/claude-agent-skills) |
+| [GuDaStudio/skills](https://github.com/GuDaStudio/skills) | GudaStudio 的 Agent Skills 集合 | [⭐](https://github.com/GuDaStudio/skills) |
+
+### 工具与实用程序
+
+| 仓库 | 描述 | Stars |
+|------------|-------------|-------|
+| [numman-ali/openskills](https://github.com/numman-ali/openskills) | AI 编程代理的通用技能加载器（Claude Code、Cursor、Windsurf、Aider、Codex） | [⭐](https://github.com/numman-ali/openskills) |
+| [zouyingcao/agentskills-mcp](https://github.com/zouyingcao/agentskills-mcp) | 通过 MCP 将 Anthropic 的 Agent Skills 带到任何 AI 代理 | [⭐](https://github.com/zouyingcao/agentskills-mcp) |
+| [SteelMorgan/cursor-anthropic-skills](https://github.com/SteelMorgan/cursor-anthropic-skills) | 将 Anthropic Skills 集成到 Cursor IDE 的框架 | [⭐](https://github.com/SteelMorgan/cursor-anthropic-skills) |
+
+### 规范与文档
+
+| 仓库 | 描述 | Stars |
+|------------|-------------|-------|
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Agent Skills 开放格式的规范和文档 | [⭐](https://github.com/agentskills/agentskills) |
+| [zebbern/agent-skills-guide](https://github.com/zebbern/agent-skills-guide) | 创建 agent skill 文件的指南和示例 | [⭐](https://github.com/zebbern/agent-skills-guide) |
+
+### 市场
+
+| 平台 | 描述 | 链接 |
+|----------|-------------|------|
+| **SkillsMP** | 浏览 71000+ 兼容 Claude Code、Codex CLI 和 ChatGPT 的 agent skills | [skillsmp.com](https://skillsmp.com/) |
+
+---
+
 ## 安装方式
 
 ### Claude Code
@@ -203,8 +245,12 @@ This skill helps you...
 ## 统计
 
 - **官方 Skills**: 16 (Anthropic: 10, Vercel Labs: 3, Expo: 3)
-- **开发工具**: 2
-- **官方文档来源**: 4
+- **社区集合**: 13 个已验证仓库
+- **Awesome 列表**: 4 个 (VoltAgent, skillmatic-ai, ComposioHQ, heilcheng)
+- **Skills 集合**: 3 个 (hikanner, meetrais, GuDaStudio)
+- **工具与实用程序**: 3 个 (openskills, agentskills-mcp, cursor-anthropic-skills)
+- **开发工具**: 2 个 (skillport, add-skill)
+- **市场**: 1 个 (SkillsMP - 71000+ skills)
 - **最后更新**: 2026-01-18
 
 ---
