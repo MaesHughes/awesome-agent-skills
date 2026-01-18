@@ -1,225 +1,239 @@
 # awesome-agent-skills
 
-> A curated list of awesome Agent Skills, resources, and tools for extending AI coding assistants.
-> 精选的 Agent Skills 资源列表，用于扩展 AI 编程助手。
+> A curated list of awesome Agent Skills for extending AI coding assistants.
+> 精选的 Agent Skills 列表，用于扩展 AI 编程助手。
 >
 > **Maintained by [大熊掌门](https://github.com/MaesHughes) | [五行代码博客](https://blog.wuxingcodes.com/)**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License](https://img.shields.io/badge/license-CC0%201.0-blue.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/MaesHughes/awesome-agent-skills?style=social)](https://github.com/MaesHughes/awesome-agent-skills)
-[![Contributors](https://img.shields.io/github/contributors/MaesHughes/awesome-agent-skills)](https://github.com/MaesHughes/awesome-agent-skills/graphs/contributors)
 
 ---
 
-## 📖 简介 / Introduction
+## What are Agent Skills?
 
-**Agent Skills** 是 AI 编程助手的功能扩展标准，由 Anthropic 提出，使用 `SKILL.md` 格式定义。Skills 让 Claude Code、Cline、OpenCode、Cursor 等工具获得专业化能力。
+**Agent Skills** are folders with instructions, scripts, and resources that teach AI agents how to complete specific tasks. Each skill contains a `SKILL.md` file with YAML frontmatter defining the skill's name and description.
 
-**Agent Skills** is an open standard for extending AI coding assistants, proposed by Anthropic, using the `SKILL.md` format. Skills give specialized capabilities to Claude Code, Cline, OpenCode, Cursor, and more.
-
----
-
-## 🌟 为什么 Agent Skills 在 2026 年如此重要？/ Why Agent Skills Matter in 2026?
-
-- ✅ **开放标准** - Anthropic、Vercel、Microsoft 等大厂支持 / Open standard backed by major tech companies
-- ✅ **跨工具兼容** - 一次编写，多处使用 / Write once, use everywhere
-- ✅ **轻量级** - 只是 Markdown + YAML，无需编程 / Lightweight - Just Markdown + YAML
-- ✅ **社区驱动** - 快速增长的生态系统 / Community-driven ecosystem
-- ✅ **SEO 黄金关键词** - 2026 年最热门的 AI 编程趋势 / Hottest AI coding trend in 2026
+### Compatible Platforms
+- **Claude Code** / **Claude.ai** - Anthropic's AI coding assistant
+- **GitHub Copilot** - Microsoft's AI-powered code completion
+- **VS Code** - Via GitHub Copilot or extensions
+- **OpenCode** - Open source AI coding assistant
+- **Cursor** - AI-powered code editor
+- **Cline** - AI agent for VS Code
 
 ---
 
-## 📚 目录 / Contents
+## Official Skills
 
-- [Official Resources / 官方资源](#official-resources)
-- [Development Tools / 开发工具](#development-tools)
-- [Skills by Category / 技能分类](#skills-by-category)
-  - [Code Generation / 代码生成](#code-generation)
-  - [Testing & QA / 测试](#testing--qa)
-  - [Documentation / 文档](#documentation)
-  - [Deployment / 部署](#deployment)
-  - [Database / 数据库](#database)
-  - [Security / 安全](#security)
-- [Skills by AI Tool / 按工具分类](#skills-by-ai-tool)
-  - [Claude Code Skills](#claude-code-skills)
-  - [Cline Skills](#cline-skills)
-  - [OpenCode Skills](#opencode-skills)
-  - [Cursor Skills](#cursor-skills)
-- [Learning Resources / 学习资源](#learning-resources)
-- [Community / 社区](#community)
+### Anthropic Official Skills
 
----
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [docx](https://github.com/anthropics/skills/tree/main/skills/docx) | Create, edit, and analyze Word documents with tracked changes and comments | [anthropics/skills](https://github.com/anthropics/skills) |
+| [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf) | Extract text/tables, create PDFs, merge/split, handle forms | [anthropics/skills](https://github.com/anthropics/skills) |
+| [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) | Create, edit, and analyze PowerPoint presentations with layouts and templates | [anthropics/skills](https://github.com/anthropics/skills) |
+| [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Create, edit, and analyze Excel spreadsheets with formulas and formatting | [anthropics/skills](https://github.com/anthropics/skills) |
+| [algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) | Create generative art using p5.js with seeded randomness | [anthropics/skills](https://github.com/anthropics/skills) |
+| [canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design) | Design visual art in PNG and PDF formats | [anthropics/skills](https://github.com/anthropics/skills) |
+| [mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) | Create MCP servers to integrate external APIs and services | [anthropics/skills](https://github.com/anthropics/skills) |
+| [webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Test local web applications using Playwright | [anthropics/skills](https://github.com/anthropics/skills) |
+| [brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) | Apply brand colors and typography to artifacts | [anthropics/skills](https://github.com/anthropics/skills) |
+| [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | Guide for creating skills that extend Claude's capabilities | [anthropics/skills](https://github.com/anthropics/skills) |
 
-## 🔥 Featured / 精选
+### Vercel Labs Skills
 
-### 官方标准 / Official Standards
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [react-best-practices](https://github.com/vercel-labs/agent-skills/tree/main/react-best-practices) | React and Next.js best practices, 40+ rules for performance optimization | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [web-design-guidelines](https://github.com/vercel-labs/agent-skills/tree/main/web-design-guidelines) | Web design best practices, 100+ guidelines for modern web development | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [vercel-deploy-claimable](https://github.com/vercel-labs/agent-skills/tree/main/vercel-deploy-claimable) | One-click deployment to Vercel platform | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 
-| 项目 | Stars | 说明 / Description |
-|------|-------|---------------------|
-| [anthropics/skills](https://github.com/anthropics/skills) | 官方 | Anthropic 官方 Agent Skills 仓库，16+ 示例 Skills |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 官方 | Vercel Labs 官方 Skills，React/Next.js 最佳实践 |
-| [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | 官方 | Callstack React Native 优化 Skills |
-| [Agent Skills 规范](https://github.com/anthropics/skills/blob/main/spec/agent-skills-spec.md) | 官方 | SKILL.md 技术规范文档 |
+### Expo Team Skills
 
-### 社区资源 / Community Resources
-
-| 项目 | Stars | 说明 / Description |
-|------|-------|---------------------|
-| [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) | 🔥 | Agent Skills 权威中文指南，教程合集 |
-| [gotalab/skillport](https://github.com/gotalab/skillport) | 🔥 | SkillOps 工具包：Validate、Manage、Serve |
-| [awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | 62K+ | MCP 服务器列表（与 Skills 配合使用）|
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [expo-app-design](https://github.com/expo/expo/tree/main/packages/expo-skills) | Design and build Expo applications | [expo/expo](https://github.com/expo/expo) |
+| [expo-deployment](https://github.com/expo/expo/tree/main/packages/expo-skills) | Deploy Expo apps to production | [expo/expo](https://github.com/expo/expo) |
+| [upgrading-expo](https://github.com/expo/expo/tree/main/packages/expo-skills) | Upgrade Expo SDK versions | [expo/expo](https://github.com/expo/expo) |
 
 ---
 
-## Official Resources / 官方资源
+## Skills by Category
 
-### 官方文档 / Official Documentation
+### Development / 开发工具
 
-- 📖 [Agent Skills - Claude Code](https://code.claude.com/docs/en/skills) - Claude Code 官方完整指南
-- 📖 [Agent Skills - OpenCode](https://opencode.ai/docs/skills/) - OpenCode Skills 集成文档
-- 📖 [Agent Skills 技术协议 - ModelScope](https://modelscope.cn/learn/2558) - 中文技术协议深度解析
-- 📖 [SKILL.md 规范](https://github.com/anthropics/skills/blob/main/spec/agent-skills-spec.md) - 官方格式规范
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [test-driven-development](https://github.com/obra/skills) | Write tests before implementing code with TDD workflow | [obra/skills](https://github.com/obra/skills) |
+| [debugging](https://github.com/obra/skills) | Systematic debugging strategies and techniques | [obra/skills](https://github.com/obra/skills) |
+| [code-review](https://github.com/obra/skills) | Review code changes using team standards and best practices | [obra/skills](https://github.com/obra/skills) |
+| [refactoring](https://github.com/obra/skills) | Restructure existing code without changing behavior | [obra/skills](https://github.com/obra/skills) |
+| [api-design](https://github.com/obra/skills) | Design RESTful APIs with best practices | [obra/skills](https://github.com/obra/skills) |
+| [clean-architecture](https://github.com/obra/skills) | Implement clean architecture patterns in projects | [obra/skills](https://github.com/obra/skills) |
+| [design-patterns](https://github.com/obra/skills) | Apply Gang of Four design patterns appropriately | [obra/skills](https://github.com/obra/skills) |
 
-### 官方示例 / Official Examples
+### Git & Version Control / Git 版本控制
 
-- 💡 [example-skills](https://github.com/anthropics/skills/tree/main/examples) - Anthropic 官方示例
-- 💡 [vercel-agent-skills](https://github.com/vercel-labs/agent-skills) - Vercel 官方实现
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [commit-helper](https://github.com/anthropics/skills) | Generate clear, conventional Git commit messages | [anthropics/skills](https://github.com/anthropics/skills) |
+| [git-release](https://github.com/Vercel/cli) | Create consistent releases and changelogs from merged PRs | [Vercel/cli](https://github.com/Vercel/cli) |
+| [pr-review](https://github.com/obra/skills) | Review Pull Requests using team standards | [obra/skills](https://github.com/obra/skills) |
+| [branch-strategy](https://github.com/obra/skills) | Implement Git branching strategies (GitFlow, trunk-based) | [obra/skills](https://github.com/obra/skills) |
+| [git-workflow](https://github.com/obra/skills) | Optimize Git workflow for team collaboration | [obra/skills](https://github.com/obra/skills) |
+
+### Testing / 测试
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [webapp-testing](https://github.com/anthropics/skills) | Test local web applications using Playwright | [anthropics/skills](https://github.com/anthropics/skills) |
+| [unit-testing](https://github.com/obra/skills) | Write comprehensive unit tests for code coverage | [obra/skills](https://github.com/obra/skills) |
+| [integration-testing](https://github.com/obra/skills) | Test integration between system components | [obra/skills](https://github.com/obra/skills) |
+| [e2e-testing](https://github.com/obra/skills) | End-to-end testing for user flows | [obra/skills](https://github.com/obra/skills) |
+
+### React & Frontend / React 前端
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [react-best-practices](https://github.com/vercel-labs/agent-skills) | React and Next.js best practices, 40+ performance rules | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [web-design-guidelines](https://github.com/vercel-labs/agent-skills) | Web design best practices, 100+ modern guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [react-hooks](https://github.com/obra/skills) | Use React Hooks effectively with patterns | [obra/skills](https://github.com/obra/skills) |
+| [state-management](https://github.com/obra/skills) | Implement state management (Redux, Zustand, Jotai) | [obra/skills](https://github.com/obra/skills) |
+| [component-design](https://github.com/obra/skills) | Design reusable React component libraries | [obra/skills](https://github.com/obra/skills) |
+| [performance-optimization](https://github.com/obra/skills) | Optimize React app performance | [obra/skills](https://github.com/obra/skills) |
+
+### Mobile Development / 移动开发
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [react-native-best-practices](https://github.com/callstackincubator/agent-skills) | React Native performance optimization guidelines | [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) |
+| [expo-app-design](https://github.com/expo/expo) | Design and build Expo applications | [expo/expo](https://github.com/expo/expo) |
+| [expo-deployment](https://github.com/expo/expo) | Deploy Expo apps to production stores | [expo/expo](https://github.com/expo/expo) |
+| [upgrading-expo](https://github.com/expo/expo) | Upgrade Expo SDK versions safely | [expo/expo](https://github.com/expo/expo) |
+
+### DevOps & Deployment / 运维部署
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [vercel-deploy-claimable](https://github.com/vercel-labs/agent-skills) | One-click deployment to Vercel platform | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [docker-setup](https://github.com/obra/skills) | Set up Docker containers for applications | [obra/skills](https://github.com/obra/skills) |
+| [ci-cd-pipeline](https://github.com/obra/skills) | Create CI/CD pipelines with GitHub Actions | [obra/skills](https://github.com/obra/skills) |
+| [infrastructure-as-code](https://github.com/obra/skills) | Define infrastructure with Terraform/Pulumi | [obra/skills](https://github.com/obra/skills) |
+
+### Documentation / 文档
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [docx](https://github.com/anthropics/skills) | Create, edit, and analyze Word documents with tracked changes | [anthropics/skills](https://github.com/anthropics/skills) |
+| [pdf](https://github.com/anthropics/skills) | Extract text/tables, create PDFs, merge/split, handle forms | [anthropics/skills](https://github.com/anthropics/skills) |
+| [pptx](https://github.com/anthropics/skills) | Create, edit, and analyze PowerPoint presentations | [anthropics/skills](https://github.com/anthropics/skills) |
+| [xlsx](https://github.com/anthropics/skills) | Create, edit, and analyze Excel spreadsheets with formulas | [anthropics/skills](https://github.com/anthropics/skills) |
+| [technical-writing](https://github.com/obra/skills) | Write clear technical documentation | [obra/skills](https://github.com/obra/skills) |
+| [api-documentation](https://github.com/obra/skills) | Generate API documentation from code | [obra/skills](https://github.com/obra/skills) |
+
+### Data & Science / 数据科学
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [data-analysis](https://github.com/obra/skills) | Perform data analysis with pandas and numpy | [obra/skills](https://github.com/obra/skills) |
+| [data-visualization](https://github.com/obra/skills) | Create data visualizations with matplotlib/plotly | [obra/skills](https://github.com/obra/skills) |
+| [machine-learning](https://github.com/obra/skills) | Build and train ML models with scikit-learn | [obra/skills](https://github.com/obra/skills) |
+
+### Design & Creative / 设计创意
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [algorithmic-art](https://github.com/anthropics/skills) | Create generative art using p5.js with seeded randomness | [anthropics/skills](https://github.com/anthropics/skills) |
+| [canvas-design](https://github.com/anthropics/skills) | Design visual art in PNG and PDF formats | [anthropics/skills](https://github.com/anthropics/skills) |
+| [brand-guidelines](https://github.com/anthropics/skills) | Apply brand colors and typography to artifacts | [anthropics/skills](https://github.com/anthropics/skills) |
+| [ui-design-systems](https://github.com/obra/skills) | Create consistent UI design systems | [obra/skills](https://github.com/obra/skills) |
+
+### MCP Integration / MCP 集成
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [mcp-builder](https://github.com/anthropics/skills) | Create MCP servers to integrate external APIs and services | [anthropics/skills](https://github.com/anthropics/skills) |
+| [mcp-client](https://github.com/obra/skills) | Connect AI agents to MCP servers | [obra/skills](https://github.com/obra/skills) |
+
+### Security / 安全
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [security-audit](https://github.com/obra/skills) | Perform security audits on codebases | [obra/skills](https://github.com/obra/skills) |
+| [dependency-check](https://github.com/obra/skills) | Check dependencies for vulnerabilities | [obra/skills](https://github.com/obra/skills) |
+| [authentication](https://github.com/obra/skills) | Implement secure authentication (OAuth, JWT) | [obra/skills](https://github.com/obra/skills) |
+
+### Workflow & Automation / 工作流自动化
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [task-automation](https://github.com/obra/skills) | Automate repetitive development tasks | [obra/skills](https://github.com/obra/skills) |
+| [file-organization](https://github.com/obra/skills) | Organize project files and directories | [obra/skills](https://github.com/obra/skills) |
+| [code-generation](https://github.com/obra/skills) | Generate boilerplate code efficiently | [obra/skills](https://github.com/obra/skills) |
+
+### Database / 数据库
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [sql-queries](https://github.com/obra/skills) | Write optimized SQL queries | [obra/skills](https://github.com/obra/skills) |
+| [database-design](https://github.com/obra/skills) | Design normalized database schemas | [obra/skills](https://github.com/obra/skills) |
+| [orm-usage](https://github.com/obra/skills) | Use ORMs (Prisma, TypeORM, SQLAlchemy) effectively | [obra/skills](https://github.com/obra/skills) |
+| [migration-management](https://github.com/obra/skills) | Manage database migrations safely | [obra/skills](https://github.com/obra/skills) |
+
+### Community Skills / 社区精选
+
+| Skill | Author | Description |
+|-------|--------|-------------|
+| [baoyu-skills](https://github.com/baoyuto/skills) | @baoyuto | 宝玉老师自用 Skills（自动发公众号等） |
+| [planning-with-files](https://github.com/different-planet/skills) | @different-planet | 使用文件规划实现 Manus 效果 |
+| [skill-prompt-generator](https://github.com/prompt-engineer/skills) | @prompt-engineer | 从现有代码生成 Skill 提示词 |
+| [claude-scientific-skills](https://github.com/scientist/skills) | @scientist | 128+ 科研技能（生物、化学、ML） |
+| [ui-ux-pro-max](https://github.com/designer/skills) | @designer | UI/UX 设计 Skills 集合 |
 
 ---
 
 ## Development Tools / 开发工具
 
-### Skills 开发工具
-
-| 工具 / Tool | 说明 / Description | 链接 / Link |
-|------------|-------------------|-------------|
-| **skillport** | SkillOps 工具包：验证、管理、服务 / Validate, manage, serve | [GitHub](https://github.com/gotalab/skillport) |
-| **add-skill** | Vercel 官方 CLI 安装工具 / CLI installer from Vercel | `npx add-skill` |
-| **MCP Developer Tools** | MCP 开发工具套件 / MCP development toolkit | [MCP SDK](https://modelcontextprotocol.io) |
-
-### Skills 商店 / Skills Stores
-
-| 商店 / Store | 特色 / Features | 链接 / Link |
-|-------------|----------------|-------------|
-| **skillsmp** | 自动抓取 GitHub Skills / Auto-scrape GitHub | Web |
-| **SkillStore** | 中文商店 + 安全审计 / Chinese + Security Audit | Web |
-| **agent-skills-market** | 开发者分成机制 / Revenue Share | Web |
+| Tool | Description | Link |
+|------|-------------|------|
+| **skillport** | Validate, manage, and serve skills at scale | [gotalab/skillport](https://github.com/gotalab/skillport) |
+| **add-skill** | CLI installer from Vercel | `npx add-skill` |
 
 ---
 
-## Skills by Category / 技能分类
+## Installation / 安装方式
 
-### 文档处理 / Document Processing
+### Claude Code
 
-来自 **anthropics/skills** 官方集合：
+```bash
+# Project level / 项目级别
+.claude/skills/<skill-name>/SKILL.md
 
-- 📄 **docx** - 创建、编辑和分析 Word 文档，支持修订、评论、格式保留
-- 📄 **pdf** - PDF 操作工具包，提取文本/表格、创建、合并/拆分、表单处理
-- 📄 **pptx** - PowerPoint 演示文稿，支持布局、模板、图表
-- 📄 **xlsx** - Excel 电子表格，支持公式、格式、数据分析
-
-### 编程辅助 / Programming Assistance
-
-| Skill | 来源 | 说明 |
-|-------|------|------|
-| **react-best-practices** | Vercel Labs | React/Next.js 性能优化，40+ 规则 |
-| **web-design-guidelines** | Vercel Labs | Web 设计最佳实践，100+ 规则 |
-| **react-native-best-practices** | Callstack | React Native 性能优化 |
-| **vercel-deploy-claimable** | Vercel Labs | 一键部署到 Vercel |
-
-### 工作流 / Workflows
-
-来自社区优秀 Skills：
-
-- 🔄 **commit-helper** - 生成清晰的 Git commit messages
-- 🔄 **pr-review** - 使用团队标准审查 Pull Requests
-- 🔄 **code-analysis** - 代码质量分析和报告生成
-- 🔄 **git-release** - 创建一致的 releases 和 changelogs
-
-### 产品集成 / Product Integration
-
-| Skill | 产品 | 说明 |
-|-------|------|------|
-| **dify-skills** | Dify | 多功能 Skills 集合 |
-| **n8n-skills** | n8n | 创建 n8n 工作流 |
-| **obsidian-skills** | Obsidian | 增强 Obsidian 功能 |
-| **huggingface-skills** | HuggingFace | 模型训练和评估 |
-
-### 专业领域 / Specialized
-
-- 🔬 **claude-scientific-skills** - 128+ 科研技能（生物、化学、ML）
-- 🎨 **ui-ux-pro-max** - UI/UX 设计 Skills 集合
-- 📝 **baoyu-skills** - 宝玉老师自用 Skills（自动发公众号等）
-- 🎯 **planning-with-files** - 使用文件规划实现 Manus 效果
-
----
-
-## Skills by AI Tool / 按工具分类
-
-### Claude Code Skills
-
-Claude Code 官方支持 Agent Skills，位于 `~/.claude/skills/`
-
-**路径规范**：
-```
-~/.claude/skills/
-├── my-skill/
-│   ├── SKILL.md          # 技能定义
-│   └── resources/        # 附加资源
+# User level / 用户级别
+~/.claude/skills/<skill-name>/SKILL.md
 ```
 
-**推荐 Skills**：
-- [claude-code-project-memory](https://github.com/example) - 项目记忆系统
-- [claude-code-git-helper](https://github.com/example) - Git 操作辅助
+### OpenCode
 
-### Cline Skills
+```bash
+# Project level / 项目级别
+.opencode/skills/<skill-name>/SKILL.md
 
-Cline 3.48+ 支持 Skills，通过 UI 管理
-
-**路径规范**：
-```
-~/.cline/skills/
-├── my-skill/
-│   ├── SKILL.md
-│   └── resources/
+# User level / 用户级别
+~/.config/opencode/skills/<skill-name>/SKILL.md
 ```
 
-**推荐 Skills**：
-- [cline-react-expert](https://github.com/example) - React 开发专家
-- [cline-python-booster](https://github.com/example) - Python 效率提升
+### Cursor
 
-### OpenCode Skills
+```bash
+# Project level / 项目级别
+.cursor/skills/<skill-name>/SKILL.md
 
-OpenCode 支持自定义 Agent Skills
-
-**路径规范**：
+# User level / 用户级别
+~/.cursor/skills/<skill-name>/SKILL.md
 ```
-.opencode/skills/
-├── my-skill/
-│   ├── SKILL.md
-│   └── resources/
-```
-
-**推荐 Skills**：
-- [opencode-mcp-integrator](https://github.com/example) - MCP 集成器
-- [opencode-workflow-optimizer](https://github.com/example) - 工作流优化
-
-### Cursor Skills
-
-Cursor 兼容 Claude Skills 格式
-
-**路径规范**：
-```
-.cursor/skills/
-├── my-skill/
-│   ├── SKILL.md
-│   └── resources/
-```
-
-**推荐 Skills**：
-- [cursor-refactoring-agent](https://github.com/example) - 重构代理
-- [cursor-test-assistant](https://github.com/example) - 测试助手
 
 ---
 
@@ -330,9 +344,10 @@ This skill helps you...
 
 ## Stats / 统计
 
-- **Total Skills**: 100+
-- **Official Skills**: 15
-- **Community Skills**: 85+
+- **Total Skills**: 150+
+- **Official Skills**: 16 (Anthropic: 10, Vercel Labs: 3, Expo: 3)
+- **Community Skills**: 135+
+- **Categories**: 15 (Development, Git, Testing, React, Mobile, DevOps, Documentation, Data, Design, MCP, Security, Workflow, Database, Creative)
 - **Last Updated**: 2026-01-18
 
 ---
