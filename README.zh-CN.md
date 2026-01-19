@@ -285,44 +285,6 @@
 
 ---
 
-## 贡献指南
-
-欢迎提交 Pull Request 添加新的 Agent Skills 仓库！
-
-### 提交规范
-
-1. **Fork 本仓库** 并创建特性分支
-2. **添加技能** 到对应分类下，按字母顺序排列
-3. **格式要求**:
-   ```markdown
-   | [仓库名](https://github.com/xxx/yyy) | 简短描述 | [@作者](https://github.com/xxx) |
-   ```
-4. **质量标准**:
-   - ✅ 包含 `SKILL.md` 文件的独立仓库（至少 **5 stars**）
-   - ✅ 官方组织仓库（Anthropic、Vercel Labs、OpenAI、Dify 等）
-   - ❌ 不收录个人/社区聚合仓库（避免重复）
-   - ❌ 不收录纯文档/教程项目（放入学习资源）
-   - ❌ 不收录少于 5 stars 的项目（质量把控）
-
-### 本地预览
-
-```bash
-# 克隆仓库
-git clone https://github.com/MaesHughes/awesome-agent-skills.git
-cd awesome-agent-skills
-
-# 安装依赖
-npm install -g markdown-link-check
-
-# 检查链接
-markdown-link-check README.md
-
-# 预览 Markdown
-npx serve
-```
-
----
-
 ## 授权协议
 
 本项目采用 [CC0 1.0 Universal](LICENSE) 许可证，您可以自由使用、修改和分发本列表中的内容。

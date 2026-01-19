@@ -284,44 +284,6 @@ A curated list of Agent Skills resources, including official team repositories, 
 
 ---
 
-## Contributing
-
-Pull Requests are welcome to add new Agent Skills repositories!
-
-### Submission Guidelines
-
-1. **Fork this repository** and create a feature branch
-2. **Add skills** under appropriate categories, in alphabetical order
-3. **Format requirements**:
-   ```markdown
-   | [Repo Name](https://github.com/username/repository) | Brief description | [@Author](https://github.com/username) |
-   ```
-4. **Quality standards**:
-   - ✅ Independent repositories with `SKILL.md` files (minimum **5 stars**)
-   - ✅ Official organization repositories (Anthropic, Vercel Labs, OpenAI, Dify, etc.)
-   - ❌ No personal/community aggregation repositories (to avoid duplication)
-   - ❌ No pure documentation/tutorial projects (put in learning resources)
-   - ❌ No projects with fewer than 5 stars (quality control)
-
-### Local Preview
-
-```bash
-# Clone repository
-git clone https://github.com/MaesHughes/awesome-agent-skills.git
-cd awesome-agent-skills
-
-# Install dependencies
-npm install -g markdown-link-check
-
-# Check links
-markdown-link-check README.md
-
-# Preview Markdown
-npx serve
-```
-
----
-
 ## License
 
 This project is licensed under [CC0 1.0 Universal](LICENSE). You are free to use, modify, and distribute the content of this list.
