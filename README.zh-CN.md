@@ -105,13 +105,6 @@
 | **OpenAI** | [openai/skills](https://github.com/openai/skills) | ? | OpenAI Codex 官方技能集合 |
 | **Hugging Face** | [huggingface/skills](https://github.com/huggingface/skills) | ? | 在 HuggingFace 上使用 Skills 训练大模型 |
 
-### 社区集合仓库（多 Skills）
-
-| 组织 | 仓库 | Skills 数量 | 描述 |
-|------|------|-----------|------|
-| **Alireza Rezvani** | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 42+ | 企业级 Skills 集合（营销、产品、工程、C-level、PM、RA/QM） |
-| **ingpoc** | [ingpoc/skills](https://github.com/ingpoc/skills) | 3 | Claude Code Skills 集合（全栈调试、Tufte 设计、双代理协作） |
-
 ---
 
 ## 社区独立技能
@@ -189,11 +182,9 @@
 | 仓库 | 描述 | 作者 |
 |------|------|------|
 | [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 面向科研工作者的技能集合（128+ 科研技能） | [@K-Dense-AI](https://github.com/K-Dense-AI) |
-| [security-bluebook-builder](https://github.com/SHADOWPR0/security-bluebook-builder) | 安全蓝皮书构建器（威胁模型、数据分类等） | [@SHADOWPR0](https://github.com/SHADOWPR0) |
 | [clarity-gate](https://github.com/frmoretto/clarity-gate) | RAG 系统的预摄入验证 | [@frmoretto](https://github.com/frmoretto) |
 | [materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) | 计算材料科学（数值稳定性、时间步进等） | [@HeshamFS](https://github.com/HeshamFS) |
 | [varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill) | Varlock 项目管理 | [@wrsmith108](https://github.com/wrsmith108) |
-| [beautiful_prose](https://github.com/SHADOWPR0/beautiful_prose) | 美化散文写作工具 | [@SHADOWPR0](https://github.com/SHADOWPR0) |
 
 ---
 
@@ -306,11 +297,12 @@
    ```markdown
    | [仓库名](https://github.com/xxx/yyy) | 简短描述 | [@作者](https://github.com/xxx) |
    ```
-4. **仅收录**:
-   - ✅ 包含 `SKILL.md` 文件的独立仓库
-   - ✅ 或包含多个 Skills 的集合仓库
+4. **质量标准**:
+   - ✅ 包含 `SKILL.md` 文件的独立仓库（至少 **5 stars**）
+   - ✅ 官方组织仓库（Anthropic、Vercel Labs、OpenAI、Dify 等）
+   - ❌ 不收录个人/社区聚合仓库（避免重复）
    - ❌ 不收录纯文档/教程项目（放入学习资源）
-   - ❌ 不收录 Star 数过少的项目（质量把控）
+   - ❌ 不收录少于 5 stars 的项目（质量把控）
 
 ### 本地预览
 

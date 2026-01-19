@@ -104,13 +104,6 @@ A curated list of Agent Skills resources, including official team repositories, 
 | **OpenAI** | [openai/skills](https://github.com/openai/skills) | ? | OpenAI Codex official skill collection |
 | **Hugging Face** | [huggingface/skills](https://github.com/huggingface/skills) | ? | Using Skills to train LLMs on HuggingFace |
 
-### Community Collection Repositories (Multiple Skills)
-
-| Organization | Repository | Skills Count | Description |
-|--------------|-----------|--------------|-------------|
-| **Alireza Rezvani** | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 42+ | Enterprise-grade skills collection (Marketing, Product, Engineering, C-level, PM, RA/QM) |
-| **ingpoc** | [ingpoc/skills](https://github.com/ingpoc/skills) | 3 | Claude Code skills collection (Full-stack debugging, Tufte design, Two-agent collaboration) |
-
 ---
 
 ## Community Independent Skills
@@ -188,11 +181,9 @@ A curated list of Agent Skills resources, including official team repositories, 
 | Repository | Description | Author |
 |------------|-------------|--------|
 | [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | Skill collection for scientific researchers (128+ scientific skills) | [@K-Dense-AI](https://github.com/K-Dense-AI) |
-| [security-bluebook-builder](https://github.com/SHADOWPR0/security-bluebook-builder) | Security bluebook builder (threat modeling, data classification, etc.) | [@SHADOWPR0](https://github.com/SHADOWPR0) |
 | [clarity-gate](https://github.com/frmoretto/clarity-gate) | Pre-ingestion validation for RAG systems | [@frmoretto](https://github.com/frmoretto) |
 | [materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) | Computational materials science (numerical stability, time stepping, etc.) | [@HeshamFS](https://github.com/HeshamFS) |
 | [varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill) | Varlock project management | [@wrsmith108](https://github.com/wrsmith108) |
-| [beautiful_prose](https://github.com/SHADOWPR0/beautiful_prose) | Beautiful prose writing tool | [@SHADOWPR0](https://github.com/SHADOWPR0) |
 
 ---
 
@@ -305,11 +296,12 @@ Pull Requests are welcome to add new Agent Skills repositories!
    ```markdown
    | [Repo Name](https://github.com/username/repository) | Brief description | [@Author](https://github.com/username) |
    ```
-4. **Only include**:
-   - ✅ Independent repositories with `SKILL.md` files
-   - ✅ Or collection repositories containing multiple skills
+4. **Quality standards**:
+   - ✅ Independent repositories with `SKILL.md` files (minimum **5 stars**)
+   - ✅ Official organization repositories (Anthropic, Vercel Labs, OpenAI, Dify, etc.)
+   - ❌ No personal/community aggregation repositories (to avoid duplication)
    - ❌ No pure documentation/tutorial projects (put in learning resources)
-   - ❌ No projects with too few stars (quality control)
+   - ❌ No projects with fewer than 5 stars (quality control)
 
 ### Local Preview
 
