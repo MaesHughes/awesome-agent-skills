@@ -1,0 +1,512 @@
+{
+  "name": "awesome-agent-skills",
+  "owner": {
+    "name": "MaesHughes"
+  },
+  "metadata": {
+    "description": "Curated marketplace of high-quality Agent Skills for AI coding assistants. Browse 50+ community-vetted skills for development, testing, data analysis, security, and more.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-epub-skill",
+      "source": {
+        "source": "github",
+        "repo": "smerchek/claude-epub-skill"
+      },
+      "description": "Convert markdown documents to professional EPUB ebooks",
+      "category": "document-processing",
+      "tags": ["epub", "markdown", "publishing"]
+    },
+    {
+      "name": "aws-skills",
+      "source": {
+        "source": "github",
+        "repo": "zxkane/aws-skills"
+      },
+      "description": "AWS development with CDK best practices, cost optimization, and serverless architecture",
+      "category": "development",
+      "tags": ["aws", "cloud", "cdk"]
+    },
+    {
+      "name": "claude-d3js-skill",
+      "source": {
+        "source": "github",
+        "repo": "chrisvoncsefalvay/claude-d3js-skill"
+      },
+      "description": "Teach Claude to generate D3 charts and interactive data visualizations",
+      "category": "data",
+      "tags": ["d3", "visualization", "charts"]
+    },
+    {
+      "name": "playwright-skill",
+      "source": {
+        "source": "github",
+        "repo": "lackeyjb/playwright-skill"
+      },
+      "description": "Playwright browser automation for testing and validating web applications",
+      "category": "testing",
+      "tags": ["playwright", "testing", "browser"]
+    },
+    {
+      "name": "ios-simulator-skill",
+      "source": {
+        "source": "github",
+        "repo": "conorluddy/ios-simulator-skill"
+      },
+      "description": "Interact with iOS Simulator for testing and debugging iOS applications",
+      "category": "testing",
+      "tags": ["ios", "mobile", "testing"]
+    },
+    {
+      "name": "claude-code-terminal-title",
+      "source": {
+        "source": "github",
+        "repo": "bluzername/claude-code-terminal-title"
+      },
+      "description": "Give each Claude Code terminal window a dynamic title describing the work being done",
+      "category": "development",
+      "tags": ["terminal", "productivity"]
+    },
+    {
+      "name": "move-code-quality-skill",
+      "source": {
+        "source": "github",
+        "repo": "1NickPappas/move-code-quality-skill"
+      },
+      "description": "Analyze Move language packages for code quality compliance",
+      "category": "development",
+      "tags": ["move", "code-quality", "static-analysis"]
+    },
+    {
+      "name": "ffuf-claude-skill",
+      "source": {
+        "source": "github",
+        "repo": "jthack/ffuf_claude_skill"
+      },
+      "description": "Integrate ffuf web fuzzer for vulnerability analysis",
+      "category": "security",
+      "tags": ["security", "fuzzing", "web"]
+    },
+    {
+      "name": "ui-skills",
+      "source": {
+        "source": "github",
+        "repo": "ibelick/ui-skills"
+      },
+      "description": "Interface building guidelines and best practices",
+      "category": "development",
+      "tags": ["ui", "guidelines", "best-practices"]
+    },
+    {
+      "name": "pypict-claude-skill",
+      "source": {
+        "source": "github",
+        "repo": "omkamal/pypict-claude-skill"
+      },
+      "description": "Design comprehensive test cases using PICT pairwise combinatorial testing",
+      "category": "testing",
+      "tags": ["testing", "pict", "combinatorial"]
+    },
+    {
+      "name": "claude-bootstrap",
+      "source": {
+        "source": "github",
+        "repo": "alinaqi/claude-bootstrap"
+      },
+      "description": "Security-first project initialization and development environment setup",
+      "category": "development",
+      "tags": ["security", "project-setup", "bootstrap"]
+    },
+    {
+      "name": "swift-concurrency-migration-skill",
+      "source": {
+        "source": "github",
+        "repo": "kylehughes/the-unofficial-swift-concurrency-migration-skill"
+      },
+      "description": "Swift concurrency migration guide",
+      "category": "development",
+      "tags": ["swift", "concurrency", "ios"]
+    },
+    {
+      "name": "obsidian-plugin-skill",
+      "source": {
+        "source": "github",
+        "repo": "gapmiss/obsidian-plugin-skill"
+      },
+      "description": "Obsidian plugin development",
+      "category": "development",
+      "tags": ["obsidian", "plugin"]
+    },
+    {
+      "name": "csv-data-summarizer-claude-skill",
+      "source": {
+        "source": "github",
+        "repo": "coffeefuelbump/csv-data-summarizer-claude-skill"
+      },
+      "description": "Automatically analyze CSV files and generate visualized insights without user prompts",
+      "category": "data",
+      "tags": ["csv", "data-analysis", "visualization"]
+    },
+    {
+      "name": "ai-skills",
+      "source": {
+        "source": "github",
+        "repo": "sanjay3290/ai-skills"
+      },
+      "description": "PostgreSQL queries, deep research, and Google Imagen integration",
+      "category": "data",
+      "tags": ["postgresql", "research", "imagen"]
+    },
+    {
+      "name": "claude-skills-marketplace",
+      "source": {
+        "source": "github",
+        "repo": "mhattingpete/claude-skills-marketplace"
+      },
+      "description": "Git operations automation, code implementation evaluation, test failure fixes",
+      "category": "workflow",
+      "tags": ["git", "workflow", "automation"]
+    },
+    {
+      "name": "superpowers-lab",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-lab"
+      },
+      "description": "TDD, Git worktree, finishing development branches, debugging, root cause tracing, brainstorming, subagent-driven development",
+      "category": "workflow",
+      "tags": ["tdd", "git", "debugging"]
+    },
+    {
+      "name": "linear-claude-skill",
+      "source": {
+        "source": "github",
+        "repo": "wrsmith108/linear-claude-skill"
+      },
+      "description": "Linear issue management integration",
+      "category": "workflow",
+      "tags": ["linear", "project-management"]
+    },
+    {
+      "name": "x-article-publisher-skill",
+      "source": {
+        "source": "github",
+        "repo": "wshuyi/x-article-publisher-skill"
+      },
+      "description": "Publish articles to X/Twitter",
+      "category": "content",
+      "tags": ["twitter", "social", "publishing"]
+    },
+    {
+      "name": "notebooklm-skill",
+      "source": {
+        "source": "github",
+        "repo": "PleasePrompto/notebooklm-skill"
+      },
+      "description": "Use NotebookLM for document-based conversations",
+      "category": "data",
+      "tags": ["notebooklm", "documents", "ai"]
+    },
+    {
+      "name": "vexor",
+      "source": {
+        "source": "github",
+        "repo": "scarletkc/vexor"
+      },
+      "description": "Vector-driven CLI semantic file search",
+      "category": "tools",
+      "tags": ["search", "cli", "semantic"]
+    },
+    {
+      "name": "dev-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "fvadicamo/dev-agent-skills"
+      },
+      "description": "Git/GitHub workflows, Conventional Commits, and PR management",
+      "category": "workflow",
+      "tags": ["git", "github", "conventional-commits"]
+    },
+    {
+      "name": "react-native-best-practices",
+      "source": {
+        "source": "github",
+        "repo": "callstackincubator/agent-skills"
+      },
+      "description": "React Native best practices",
+      "category": "development",
+      "tags": ["react-native", "mobile", "best-practices"]
+    },
+    {
+      "name": "makepad-skills",
+      "source": {
+        "source": "github",
+        "repo": "ZhangHanDong/makepad-skills"
+      },
+      "description": "Makepad UI development (Rust applications)",
+      "category": "development",
+      "tags": ["rust", "makepad", "ui"]
+    },
+    {
+      "name": "agent-skills-context-engineering",
+      "source": {
+        "source": "github",
+        "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering"
+      },
+      "description": "Context engineering skill collection (8 skills) for building production-grade AI systems",
+      "category": "engineering",
+      "tags": ["context", "engineering", "production"]
+    },
+    {
+      "name": "context-engineering-kit",
+      "source": {
+        "source": "github",
+        "repo": "NeoLabHQ/context-engineering-kit"
+      },
+      "description": "Prompt engineering, software architecture, SADD (subagent-driven development), Kaizen (continuous improvement)",
+      "category": "engineering",
+      "tags": ["prompt", "architecture", "sadd"]
+    },
+    {
+      "name": "claude-scientific-skills",
+      "source": {
+        "source": "github",
+        "repo": "K-Dense-AI/claude-scientific-skills"
+      },
+      "description": "Skill collection for scientific researchers (128+ scientific skills)",
+      "category": "science",
+      "tags": ["science", "research", "academic"]
+    },
+    {
+      "name": "clarity-gate",
+      "source": {
+        "source": "github",
+        "repo": "frmoretto/clarity-gate"
+      },
+      "description": "Pre-ingestion validation for RAG systems",
+      "category": "ai",
+      "tags": ["rag", "validation", "quality"]
+    },
+    {
+      "name": "materials-simulation-skills",
+      "source": {
+        "source": "github",
+        "repo": "HeshamFS/materials-simulation-skills"
+      },
+      "description": "Computational materials science (numerical stability, time stepping, etc.)",
+      "category": "science",
+      "tags": ["materials", "simulation", "science"]
+    },
+    {
+      "name": "varlock-claude-skill",
+      "source": {
+        "source": "github",
+        "repo": "wrsmith108/varlock-claude-skill"
+      },
+      "description": "Varlock project management",
+      "category": "workflow",
+      "tags": ["project-management"]
+    },
+    {
+      "name": "cloudflare-skill",
+      "source": {
+        "source": "github",
+        "repo": "dmmulroy/cloudflare-skill"
+      },
+      "description": "Cloudflare security integration",
+      "category": "security",
+      "tags": ["cloudflare", "security"]
+    },
+    {
+      "name": "claude-family-history-research-skill",
+      "source": {
+        "source": "github",
+        "repo": "emaynard/claude-family-history-research-skill"
+      },
+      "description": "Family history research",
+      "category": "content",
+      "tags": ["genealogy", "research"]
+    },
+    {
+      "name": "tapestry-skills-for-claude-code",
+      "source": {
+        "source": "github",
+        "repo": "michalparkola/tapestry-skills-for-claude-code"
+      },
+      "description": "Tapestry writing skills (article extraction, YouTube transcripts, Ship Learn Next, knowledge networks)",
+      "category": "content",
+      "tags": ["writing", "content", "knowledge"]
+    },
+    {
+      "name": "claude-code-tips",
+      "source": {
+        "source": "github",
+        "repo": "ykdojo/claude-code-tips"
+      },
+      "description": "Claude Code usage tips (includes Reddit fetch)",
+      "category": "development",
+      "tags": ["claude-code", "tips"]
+    },
+    {
+      "name": "notebooklm-py",
+      "source": {
+        "source": "github",
+        "repo": "teng-lin/notebooklm-py"
+      },
+      "description": "NotebookLM Python control",
+      "category": "data",
+      "tags": ["notebooklm", "python"]
+    },
+    {
+      "name": "baoyu-skills",
+      "source": {
+        "source": "github",
+        "repo": "JimLiu/baoyu-skills"
+      },
+      "description": "Baoyu's personal skill collection",
+      "category": "development",
+      "tags": ["collection"]
+    },
+    {
+      "name": "skill-prompt-generator",
+      "source": {
+        "source": "github",
+        "repo": "huangserva/skill-prompt-generator"
+      },
+      "description": "Skill prompt generator",
+      "category": "tools",
+      "tags": ["generator", "prompts"]
+    },
+    {
+      "name": "nanobanana-ppt-skills",
+      "source": {
+        "source": "github",
+        "repo": "op7418/NanoBanana-PPT-Skills"
+      },
+      "description": "Generate PPT based on NanoBanana",
+      "category": "content",
+      "tags": ["ppt", "presentation"]
+    },
+    {
+      "name": "dify-skills",
+      "source": {
+        "source": "github",
+        "repo": "langgenius/dify"
+      },
+      "description": "Dify official skills collection",
+      "category": "enterprise",
+      "tags": ["dify", "enterprise"]
+    },
+    {
+      "name": "obsidian-skills",
+      "source": {
+        "source": "github",
+        "repo": "kepano/obsidian-skills"
+      },
+      "description": "Skills collection to enhance Obsidian functionality",
+      "category": "development",
+      "tags": ["obsidian"]
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "description": "UI/UX design best practices",
+      "category": "development",
+      "tags": ["ui", "ux", "design"]
+    },
+    {
+      "name": "planning-with-files",
+      "source": {
+        "source": "github",
+        "repo": "OthmanAdi/planning-with-files"
+      },
+      "description": "Long-term planning using files",
+      "category": "workflow",
+      "tags": ["planning"]
+    },
+    {
+      "name": "dev-browser",
+      "source": {
+        "source": "github",
+        "repo": "SawyerHood/dev-browser"
+      },
+      "description": "Developer browser tool",
+      "category": "tools",
+      "tags": ["browser", "developer"]
+    },
+    {
+      "name": "skillport",
+      "source": {
+        "source": "github",
+        "repo": "gotalab/skillport"
+      },
+      "description": "Skills port tool",
+      "category": "tools",
+      "tags": ["port", "migration"]
+    },
+    {
+      "name": "sheets-cli",
+      "source": {
+        "source": "github",
+        "repo": "gmickel/sheets-cli"
+      },
+      "description": "Google Sheets CLI",
+      "category": "tools",
+      "tags": ["sheets", "google", "cli"]
+    },
+    {
+      "name": "skillsbench",
+      "source": {
+        "source": "github",
+        "repo": "benchflow-ai/SkillsBench"
+      },
+      "description": "Skills benchmarking",
+      "category": "tools",
+      "tags": ["benchmark", "testing"]
+    },
+    {
+      "name": "pomodoro",
+      "source": {
+        "source": "github",
+        "repo": "jakedahn/pomodoro"
+      },
+      "description": "Pomodoro timer skill",
+      "category": "workflow",
+      "tags": ["pomodoro", "productivity"]
+    },
+    {
+      "name": "mind-cloning-engineering",
+      "source": {
+        "source": "github",
+        "repo": "yzfly/Mind-Cloning-Engineering"
+      },
+      "description": "Mind cloning engineering",
+      "category": "ai",
+      "tags": ["ai", "mind"]
+    },
+    {
+      "name": "n8n-skills-czlonkowski",
+      "source": {
+        "source": "github",
+        "repo": "czlonkowski/n8n-skills"
+      },
+      "description": "n8n workflow automation skill collection (7 skills)",
+      "category": "automation",
+      "tags": ["n8n", "automation", "workflow"]
+    },
+    {
+      "name": "n8n-skills-haunchen",
+      "source": {
+        "source": "github",
+        "repo": "haunchen/n8n-skills"
+      },
+      "description": "n8n workflow automation skill collection (alternative implementation)",
+      "category": "automation",
+      "tags": ["n8n", "automation", "workflow"]
+    }
+  ]
+}
